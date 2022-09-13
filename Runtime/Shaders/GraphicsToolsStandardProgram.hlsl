@@ -23,8 +23,8 @@
 #pragma shader_feature_local _TRIPLANAR_MAPPING
 #pragma shader_feature_local _LOCAL_SPACE_TRIPLANAR_MAPPING
 #pragma shader_feature_local_fragment _USE_SSAA
-#pragma shader_feature_local _ _DIRECTIONAL_LIGHT _DISTANT_LIGHT
-#pragma shader_feature_local_fragment _SPECULAR_HIGHLIGHTS
+#pragma multi_compile_local _ _DIRECTIONAL_LIGHT _DISTANT_LIGHT
+#pragma multi_compile_local_fragment _SPECULAR_HIGHLIGHTS
 #pragma shader_feature_local _SPHERICAL_HARMONICS
 #pragma shader_feature_local _REFLECTIONS
 #pragma shader_feature_local _RIM_LIGHT
